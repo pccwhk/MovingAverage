@@ -37,7 +37,7 @@ public class TestSMA extends TestCase {
     public static Test suite() {
         return new TestSuite(TestSMA.class);
     }
-/*
+
     public void testSMAByTimeRollDate() throws ParseException {
         int timeInMinute = 2;
 
@@ -76,7 +76,7 @@ public class TestSMA extends TestCase {
         assert r.poll().compareTo(new BigDecimal("2.6")) == 0;
         assert r.poll().compareTo(new BigDecimal("2.75")) == 0;
 
-    }*/
+    }
     
     public void testSMAByTime5Min() throws ParseException {
         int timeInMinute = 5;
